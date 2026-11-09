@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <style>
+
+.menu-principal {
+    background-color: #1a1a1a; 
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #cc0000; 
+}
+
+.menu-principal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-principal li {
+    display: inline-block; 
+    margin: 0 8px; 
+}
+
+.menu-principal a {
+    display: inline-block;
+    background-color: #2a2a2a; 
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px; 
+    border: 2px solid #444444; 
+    border-radius: 4px; 
+    font-family: "Rye", serif;
+}
+footer {
+    background-color: #0a0a0a;
+    text-align: center;
+    padding: 20px 0;
+    color: #666666;
+    border-top: 2px solid #cc0000;
+    margin-top: 50px;
+}
+
+
+.menu-principal a:hover {
+    background-color: #cc0000;
+    border-color: #cc0000;   
+    color: #ffffff;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+     font-family: "Smokum", serif;
+}
+
+.banner-principal {
+    background-color: #000000;
+    background-image: linear-gradient(to bottom, #1a1a1a, #000000);
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 2px solid #cc0000;
+}
+
+.banner-principal h1 {
+    font-size: 42px;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+     font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.banner-principal p {
+    font-size: 20px;
+    color: #aaaaaa;
+    margin: 0;
+}
+
+
+.conteudo-largo {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.botao-cidades {
+    display: inline-block;
+    background-color: #cc0000;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 6px; 
+    border: 2px solid #ff3333;
+    transition: background-color 0.3s;
+   
+}
+
+.secao-em-colunas {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #1e1e1e;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.coluna-texto {
+    flex: 2; 
+    padding: 0 20px;
+}
+
+.coluna-imagem {
+    flex: 1; 
+    text-align: center;
+}
+
+.secao-em-colunas h2 {
+    color: #cc0000;
+    margin-top: 0;
+    font-size: 28px;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.secao-em-colunas p {
+    line-height: 1.8;
+    font-size: 17px;
+    text-align: justify;
+    color: #cccccc;
+    margin-bottom: 20px;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+.imagem-lateral {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 2px solid #333333;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888888;
+    font-style: italic;
+}
+
+footer {
+    background-color: #0a0a0a;
+    text-align: center;
+    padding: 20px 0;
+    color: #666666;
+    border-top: 2px solid #cc0000;
+    margin-top: 50px;
+    width: 100%;
+}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="menu-principal">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="desenvolvimento.html">Desenvolvimento</a></li>
+            <li><a href="ambientacao.html">Ambientação</a></li>
+            <li><a href="personagens.html">Personagens</a></li>
+            <li><a href="mundo-aberto.html">Mundo Aberto</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+<header class="banner-principal">
+        <h1>Red Dead Redemption 2</h1>
+        <p>A jornada épica de Arthur Morgan e o fim do Velho Oeste</p>
+    </header>
+
+    <main class="conteudo-largo">
+        <section class="secao-em-colunas">
+            <div class="coluna-imagem">
+                <figure>
+                    <img src="./img/img1.jpg" alt="Arthur Morgan cavalgando" class="imagem-lateral">
+                </figure>
+            </div>
+            
+            <div class="coluna-texto">
+                <h2>O Fim de uma Era</h2>
+                <p>Lançado em 2018, Red Dead Redemption 2 redefiniu os padrões da indústria de videogames. O jogo não é apenas uma sequência de ação, mas um drama profundo sobre lealdade, sobrevivência e a inevitabilidade da mudança. Ambientado em 1899, o título coloca os jogadores na pele de Arthur Morgan, um membro sênior e executor da gangue Van der Linde.</p>
+                <p>A narrativa principal foca na queda da era dos pistoleiros. Após um assalto a banco dar terrivelmente errado na cidade de Blackwater, a gangue é forçada a fugir pelas montanhas nevadas e atravessar o coração da América. O governo, caçadores de recompensas e a agência Pinkerton estão fechando o cerco.</p>
+            </div>
+
+            <div class="coluna-imagem">
+                <figure>
+                    <img src="./img/img2.jpg" alt="Membros da gangue Van der Linde" class="imagem-lateral">
+              
+                </figure>
+            </div>
+        </section>
+
+        <section class="secao-em-colunas">
+            <div class="coluna-imagem">
+                <figure>
+                    <img src="./img/img3.jpg" alt="Fauna e flora do jogo" class="imagem-lateral">
+                    
+                </figure>
+            </div>
+            
+            <div class="coluna-texto">
+                <h2>Realismo e Imersão</h2>
+                <p>Durante a jornada, o jogador precisa gerenciar o acampamento, caçar para conseguir suprimentos, realizar roubos e tomar decisões que afetam a honra de Arthur. Ser um criminoso impiedoso ou tentar ajudar os necessitados molda a forma como o mundo e os outros personagens reagem a você nas ruas das cidades.</p>
+                <p>O nível de detalhes alcançado pela Rockstar Games é sem precedentes. Desde o comportamento realista dos animais até a forma como a lama e a neve grudam e afetam as roupas e a movimentação dos personagens, cada pequeno elemento foi pensado para criar a experiência mais incrível possível.</p>
+            </div>
+
+            <div class="coluna-imagem">
+                <figure>
+                    <img src="./img/img4.jpg" alt="Acampamento da gangue" class="imagem-lateral">
+                    
+                </figure>
+            </div>
+        </section>
+
+         <section class="secao-em-colunas">
+            <div class="coluna-imagem">
+                <figure>
+                    <img src="./img/img5.jpg" alt="Conversa no acampamento" class="imagem-lateral">
+                    
+                </figure>
+            </div>
+            
+            <div class="coluna-texto">
+                <h2>Segundo lugar</h2>
+                <p>Pode-se afirmar que o lançamento de Red Dead Redemption 2 foi um marco no mundo dos jogos. Apesar de não ter ganho o Jogo do Ano na disputa contra God of War (2018), o jogo é aclamado e considerado por muitos o melhor jogo já feito. Sua riqueza em detalhes, gráficos e jogabilidade encantou os jogadores, que passaram a cobrar a mesma excelência em outros jogos da indústria</p>
+                <p>A grande maioria da comunidade contesta, até hoje, o fato de o prêmio de Jogo do Ano ter sido entregue a God of War, da Sony. O resultado é visto por muitos como uma das maiores injustiças da história dos games.</p>
+            </div>
+
+            <div class="coluna-imagem">
+                <figure>
+                    <img src="./img/img6.jpg" alt="Acampamento da gangue" class="imagem-lateral">
+                    
+                </figure>
+            </div>
+        </section>
+        
+    </main>
+    <footer>Feito por João André</footer>
+ 
+    
+
+</body>
+</html>
+</nav>
+</body>
+</html>

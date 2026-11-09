@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento</title>
+    <style>
+        .menu-principal {
+    background-color: #1a1a1a; 
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #cc0000; 
+    
+}
+
+.menu-principal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-principal li {
+    display: inline-block; 
+    margin: 0 8px; 
+}
+
+.menu-principal a {
+    display: inline-block;
+    background-color: #2a2a2a; 
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px; 
+    border: 2px solid #444444; 
+    border-radius: 4px; 
+    font-family: "Rye", serif;
+}
+
+
+.menu-principal a:hover {
+    background-color: #cc0000;
+    border-color: #cc0000;   
+    color: #ffffff;
+}
+.banner-principal {
+    background-color: #000000;
+    background-image: linear-gradient(to bottom, #1a1a1a, #000000);
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 2px solid #cc0000;
+}
+
+.banner-principal h1 {
+    font-size: 42px;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+      font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.banner-principal p {
+    font-size: 20px;
+    color: #aaaaaa;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Fundo cinza bem escuro */
+    color: #e0e0e0;            /* Texto claro */
+    margin: 0;
+    padding: 0;
+     font-family: "Smokum", serif;
+}
+.conteudo {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.botao-cidades {
+    display: inline-block;
+    background-color: #cc0000;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 6px; 
+    border: 2px solid #ff3333;
+    transition: background-color 0.3s;
+}
+.volta{
+    display: inline-block;
+    background-color: #cc0000;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 6px; 
+    border: 2px solid #ff3333;
+    transition: background-color 0.3s;
+}
+
+.secao {
+    background-color: #1e1e1e;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.secao h2 {
+    color: #cc0000;
+    margin-top: 0;
+    font-size: 28px;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 10px;
+}
+
+.secao p {
+    line-height: 1.8;
+    font-size: 17px;
+    text-align: justify;
+    color: #cccccc;
+    margin-bottom: 20px;
+}
+
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.imagem-destaque {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 2px solid #333333;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888888;
+    font-style: italic;
+}
+
+
+.secao-video-central {
+    background-color: #1e1e1e;
+    padding: 40px 30px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.secao-video-central h2 {
+    color: #cc0000;
+    margin-top: 0;
+    font-size: 30px;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.secao-video-central p {
+    line-height: 1.8;
+    font-size: 17px;
+    color: #cccccc;
+    margin-bottom: 25px;
+}
+
+.video-container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.video-container video {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #333333;
+    background-color: #000000;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+
+footer {
+    background-color: #0a0a0a;
+    text-align: center;
+    padding: 20px 0;
+    color: #666666;
+    border-top: 2px solid #cc0000;
+    margin-top: 50px;
+    width: 100%;
+}
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="menu-principal">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="desenvolvimento.html">Desenvolvimento</a></li>
+            <li><a href="ambientacao.html">Ambientação</a></li>
+            <li><a href="personagens.html">Personagens</a></li>
+            <li><a href="mundo-aberto.html">Mundo Aberto</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+   
+
+    <header class="banner-principal">
+        <h1>O Desenvolvimento do Jogo</h1>
+        <p>Mais de 8 anos de trabalho e milhares de desenvolvedores unidos</p>
+    </header>
+
+    <main class="conteudo">
+        
+        <section class="secao">
+            <h2>Um Esforço Global Sem Precedentes</h2>
+            <figure>
+                <img src="./img/img7.jpg" alt="Estúdios da Rockstar trabalhando" class="imagem-destaque">
+                
+            </figure>
+            <p>O desenvolvimento de Red Dead Redemption 2 começou em 2010, logo após o lançamento do primeiro jogo. Pela primeira vez na história da empresa, a Rockstar Games decidiu não deixar o projeto a cargo de um único estúdio. Em vez disso, eles uniram todas as suas divisões ao redor do mundo, como Rockstar North, San Diego e Leeds, para formarem uma única e gigantesca equipe global conhecida simplesmente como Rockstar Studios.</p>
+            <p>O projeto durou mais de oito anos, tornando-se um dos ciclos de desenvolvimento mais longos e caros da história dos videogames. Estima-se que mais de 3.000 pessoas trabalharam no jogo de alguma forma. A ambição era criar o mundo aberto mais realista, reativo e imersivo já feito, o que exigiu a criação de novas tecnologias do zero e uma reestruturação completa da engine gráfica RAGE (Rockstar Advanced Game Engine).</p>
+        </section>
+
+        <section class="secao">
+            <h2>Roteiro Épico e Captura de Movimento</h2>
+            <figure>
+                <img src="./img/img8.jpg" alt="Sessões de captura de movimento" class="imagem-destaque">
+                
+            </figure>
+            <p>A escala do roteiro de Red Dead Redemption 2 é colossal. A história principal abrange cerca de 2.000 páginas escritas pelo cofundador Dan Houser e sua equipe. Para dar vida a esse roteiro imenso, a Rockstar contratou mais de 1.200 atores. Destes, cerca de 700 tiveram falas e gravaram diálogos, resultando em impressionantes 500.000 linhas de diálogo dubladas para o jogo completo.</p>
+            <p>As sessões de captura de movimento (motion capture) começaram em 2013 e duraram um total de 2.200 dias de gravação. Os atores não apenas gravaram suas vozes, mas interpretaram cada cena fisicamente em estúdios especializados. Até os cavalos tiveram seus movimentos capturados para garantir que o galope e a reação dos animais fossem idênticos aos de um cavalo real. O objetivo era que as transições entre cenas de corte e o jogo fossem totalmente imperceptíveis.</p>
+        </section>
+
+        <section class="secao">
+            <h2>Inteligência Artificial e Física Realista</h2>
+            <figure>
+                <img src="./img/img9.jpg" alt="Detalhes de Inteligência Artificial no mundo do jogo" class="imagem-destaque">
+                
+            </figure>
+            <p>Outro grande salto no desenvolvimento foi a Inteligência Artificial. Diferente de jogos anteriores onde os NPCs caminhavam sem rumo, em Red Dead Redemption 2 cada personagem não jogável possui uma rotina diária independente. Eles acordam, vão ao trabalho, comem, bebem no saloon e vão dormir. A forma como reagem a Arthur Morgan também mudou, exigindo um sistema de interação totalmente novo onde você pode saudar ou antagonizar qualquer pessoa no mapa.</p>
+            <p>A física também atingiu níveis absurdos. O sistema "Euphoria" foi atualizado para garantir animações procedimentais de quedas, tiros e impactos incrivelmente críveis. O clima dinâmico afeta o ambiente diretamente: a lama deforma com passos, o sangue seca nas roupas ao longo do tempo, e as armas precisam ser limpas regularmente para não travarem, tornando o mundo extremamente vivo e implacável.</p>
+        </section>
+
+        <section class="secao-video-central">
+            <h2>Os Bastidores da Obra-Prima (Vídeo)</h2>
+            <p>Assista abaixo para ver de perto o monumental trabalho de criação das animações, do mundo aberto e da captura de movimento que deu vida ao jogo.</p>
+            
+            <div class="video-container">
+                <video controls>
+                    <source src="./img/vid1.mp4" type="video/mp4">
+                    Seu navegador não suporta a tag de vídeo.
+                </video>
+            </div>
+        </section>
+        
+                
+    </main>
+    
+    <footer>Feito por João André</footer>
+    
+</body>
+</html>
